@@ -1,0 +1,27 @@
+#questionnaireDiv {
+  width: 60%;
+  margin: auto;
+}
+
+#question {
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+}
+
+#userQuestionDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#questionLabel {
+  font-size: 1em;
+  margin-right: 1em;
+}
+
+#submitButton {
+  margin-left: 1em;
+}

@@ -1,0 +1,17 @@
+#questionAnswerDiv {
+  border: 1px solid gray;
+  padding: 2em;
+  margin: 1em;
+}
+
+#question {
+  display: flex;
+  justify-content: space-between;
+}
+
+#showAnswers {
+  padding: 1em;
+  margin-right: 1em;
+  border: none;
+  border-radius: 1em;
+}

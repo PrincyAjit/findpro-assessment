@@ -25,3 +25,8 @@ h1 {
 #submitButton {
   margin-left: 1em;
 }
+
+#contactus {
+  display: flex;
+  margin: 1em 3em 0 auto;
+}

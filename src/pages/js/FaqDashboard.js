@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import { useNavigate } from 'react-router-dom';
 import dummyData from '../../data.json';
 import QuestionAndAnswer from '../../components/js/QuestionAndAnswer';
 import '../css/FaqDashboard.css';
 
 const FaqDashboard = (props) => {
+  let navigate = useNavigate();
   let [questionnaireData, setQuestionnaireData] = useState(dummyData?.data);
   let [userQuestion, setUserQuestion] = useState('');
   const onUserQuestionSubmit = () => {
@@ -16,9 +18,17 @@ const FaqDashboard = (props) => {
       setUserQuestion('');
     }
   };
+  const onContactUsClick = () => {
+    navigate('/contactus', { replace: true });
+  };
   return (
     <React.Fragment>
-      <h1>Frequently Asked Questions</h1>
+      <header>
+        <button onClick={onContactUsClick} id="contactus">
+          Contact us
+        </button>
+        <h1>Frequently Asked Questions</h1>
+      </header>
       <div id="questionnaireDiv">
         <div id="userQuestionDiv">
           <span id="questionLabel">Enter your question:</span>

@@ -11,6 +11,7 @@ const QuestionAndAnswer = (props) => {
         <h4>{question}</h4>
         <button
           id="showAnswers"
+          class="buttonStyling"
           onClick={() => {
             setShowAnswers(!showAnswers);
           }}

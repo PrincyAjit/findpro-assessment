@@ -24,7 +24,7 @@ const FaqDashboard = (props) => {
   return (
     <React.Fragment>
       <header>
-        <button onClick={onContactUsClick} id="contactus">
+        <button onClick={onContactUsClick} id="contactus" class="buttonStyling">
           Contact us
         </button>
         <h1>Frequently Asked Questions</h1>
@@ -35,8 +35,13 @@ const FaqDashboard = (props) => {
           <textarea
             value={userQuestion}
             onChange={(e) => setUserQuestion(e.target.value)}
+            id="userQuestion"
           ></textarea>
-          <button onClick={onUserQuestionSubmit} id="submitButton">
+          <button
+            onClick={onUserQuestionSubmit}
+            id="submitButton"
+            class="buttonStyling"
+          >
             Submit
           </button>
         </div>

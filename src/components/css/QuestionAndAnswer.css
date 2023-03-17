@@ -1,5 +1,5 @@
 #questionAnswerDiv {
-  border: 1px solid gray;
+  border: 1px solid var(--main-blue-color);
   padding: 2em;
   margin: 1em;
 }
@@ -7,11 +7,13 @@
 #question {
   display: flex;
   justify-content: space-between;
+  color: var(--main-blue-color);
 }
 
 #showAnswers {
-  padding: 1em;
   margin-right: 1em;
-  border: none;
-  border-radius: 1em;
+}
+
+#answers-div {
+  color: var(--main-blue-color);
 }

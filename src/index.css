@@ -5,9 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --main-blue-color: #0066a2;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.buttonStyling {
+  border-radius: 1em;
+  cursor: pointer;
+  background: var(--main-blue-color);
+  color: white;
+  border-color: var(--main-blue-color);
+  padding: 1em;
+}
+
+input,
+textarea {
+  padding: 0.8em;
+  margin-left: 0.5em;
+  border: 1px solid var(--main-blue-color);
 }

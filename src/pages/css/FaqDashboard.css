@@ -3,12 +3,15 @@
   margin: auto;
 }
 
-#question {
-  cursor: pointer;
-}
-
 h1 {
   text-align: center;
+  text-decoration: underline;
+  color: var(--main-blue-color);
+}
+
+#contactus {
+  display: flex;
+  margin: 1em 3em 0 auto;
 }
 
 #userQuestionDiv {
@@ -17,16 +20,16 @@ h1 {
   align-items: center;
 }
 
+#userQuestion {
+  border: 1px solid var(--main-blue-color);
+}
+
 #questionLabel {
   font-size: 1em;
   margin-right: 1em;
+  color: var(--main-blue-color);
 }
 
 #submitButton {
   margin-left: 1em;
-}
-
-#contactus {
-  display: flex;
-  margin: 1em 3em 0 auto;
 }

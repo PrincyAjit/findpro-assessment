@@ -1,11 +1,9 @@
 form {
   width: 30%;
+  max-width: 800px;
   margin: auto;
   border: 1px solid var(--main-blue-color);
   padding: 1em;
-}
-
-form {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -14,8 +12,6 @@ form {
 }
 
 #queryDiv {
-  width: 80%;
-  margin: auto;
   display: flex;
   align-items: center;
 }

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/panorbit_employee_portal/static/css/main.629cca9c.css",
+    "main.js": "/panorbit_employee_portal/static/js/main.e42e36c5.js",
+    "static/js/787.0e6c69c1.chunk.js": "/panorbit_employee_portal/static/js/787.0e6c69c1.chunk.js",
+    "static/media/logo.svg": "/panorbit_employee_portal/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/panorbit_employee_portal/index.html",
+    "main.629cca9c.css.map": "/panorbit_employee_portal/static/css/main.629cca9c.css.map",
+    "main.e42e36c5.js.map": "/panorbit_employee_portal/static/js/main.e42e36c5.js.map",
+    "787.0e6c69c1.chunk.js.map": "/panorbit_employee_portal/static/js/787.0e6c69c1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.629cca9c.css",
+    "static/js/main.e42e36c5.js"
+  ]
+}

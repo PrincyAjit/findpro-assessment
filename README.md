@@ -1,5 +1,4 @@
 # Findpro Assessment
 
 By default the dashboard page is loaded.
-
-To access the contact us page,access it via the url by adding /contactus at the end.
+On the right you will find a Contact us button that will redirect you to the contact us page.
